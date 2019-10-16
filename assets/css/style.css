@@ -1,2 +1,75 @@
 /* font-family: 'Comfortaa', cursive;
 font-family: 'Roboto', sans-serif; */
+
+@keyframes animatedBackground {
+    from { background-position: 0 0; }
+    to { background-position: -3000px 0; }
+}
+
+h1 {
+    font-family: 'Comfortaa', cursive;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron {
+    margin-bottom: 0rem;
+}
+#header {
+    background-image: url("../images/214595803-2539x559-compressed-fixed.png");
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: cover;
+    height: 559px;
+    animation: animatedBackground 100s linear infinite;
+}
+
+.cta {
+    margin-top: auto;
+    padding-top: 5%;
+    width: 50%;
+    text-align: center;
+    color: #424242;
+}
+
+.downArrow {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-nav {
+    z-index: 100;
+}
+
+.nav-item {
+    padding: 25px;
+}
+.nav-link {
+    font-family: 'Comfortaa', cursive;
+    color: #424242;
+}
+
+.nav-link:hover{
+    color: #3AA17E;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.btn {
+    border-radius: 0px;
+    border: 2px solid #3AA17E;
+    color: #3AA17E;
+    background-color: transparent;
+    font-family: 'Comfortaa', cursive;
+}
+
+.btn:hover {
+    color: #ffffff;
+    background-color: #3AA17E
+}

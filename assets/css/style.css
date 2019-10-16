@@ -73,3 +73,27 @@ body {
     color: #ffffff;
     background-color: #3AA17E
 }
+
+.jack {
+    border: 2px solid #3AA17E;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+#about {
+    margin-top: 25px;
+}
+
+h2 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 2rem;
+    color: #3AA17E;
+    margin-bottom: 20px;
+}

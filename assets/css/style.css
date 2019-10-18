@@ -111,5 +111,16 @@ h2 {
 .portfolioContainer {
     border: 1px solid #868e96;
     height: 100%;
-    border-radius: 10px;
+    border-radius: 6px;
+}
+
+.technology {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #868e96;
+}
+
+.technologyIcon {
+    width: 30px;
+    height: 30px;
 }

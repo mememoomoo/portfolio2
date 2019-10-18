@@ -50,9 +50,6 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#portfolio">Portfolio</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
             </ul>
         </div>
         <form class="form-inline d-flex justify-content-end">
@@ -104,7 +101,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+            <div id="buttonDiv" class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
                 <div class="row">
                     <button id="chinollo" type="button" class="btn btn-outline-secondary btn-lg mr-2 mt-2"><img
                             src="assets/images/chinollo-150x50.jpg">
@@ -136,31 +133,43 @@
                     </button>
                 </div>
             </div>
-            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+
+            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12 portInfo">
                 <div class="row">
                     <div class="container portfolioContainer mt-2 ml-2">
                         <div class="row">
                             <div class="col-6">
-                                <img class="m-2" src="https://via.placeholder.com/310x158">
+                                <div class="row">
+                                    <img class="m-3" src="assets/images/chinollo-310x158.jpg">
+                                </div>
+                                <div class="row">
+                                    <p class="technology ml-3">Technology Used</p>
+                                </div>
+                                <div class="row">
+                                    <img class="technologyIcon ml-3 mt-2 mb-2 mr-1" alt="Adobe Muse"
+                                        src="assets/images/adobemuse.svg">
+                                    <img class="technologyIcon mt-2 mb-2 mr-1" alt="Adobe Photoshop"
+                                        src="assets/images/adobephotoshop.svg">
+                                    <img class="technologyIcon mt-2 mb-2 mr-1" alt="Adobe Illustrator"
+                                        src="assets/images/adobeillustrator.svg">
+                                </div>
                             </div>
+
                             <div class="col-6">
-                                <h2 class="mt-2">Chinollo</h2>
-                                <p>Chinollo is a hip hand crafted mexican fusion eatery that needed a website to reflect
+                                <h2 class="mt-3">Chinollo</h2>
+                                <p class="mb-2">Chinollo is a hip hand crafted mexican fusion eatery that needed a
+                                    website to reflect
                                     that. We rebranded and built their website from ground up.</p>
+                                <a href="http://chinollo.larsenwebdesign.com/" target="_blank">
+                                    <button class="btn btnCustom" type="button">View</button>
+                                </a>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <div id="contact" class="container mt-5 mb-5">
-
-    </div>
-
     <div class="navbar">
         <p class="copywrite">&copy2019 Larsen Web Design</p>
     </div>
